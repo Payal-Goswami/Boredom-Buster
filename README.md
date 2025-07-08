@@ -26,3 +26,4 @@ Welcome to **Boredom Buster** – a fun, interactive web app designed to rescue 
 
 
 ---
+Created by Payal Goswami ✨
