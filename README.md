@@ -21,7 +21,7 @@ Welcome to **Boredom Buster** – a fun, interactive web app designed to rescue 
 - [icanhazdadjoke](https://icanhazdadjoke.com/api) – Random jokes
 - [The Cat API](https://catfact.ninja) – Random cat facts
 - [The Dog API](https://dog.ceo/dog-api/) - Random Dog images
-- [The dictionary API](https://api.dictionaryapi.dev/api/v2/entries/en/) – Dictionary definitions
+- [The dictionary API] – Dictionary definitions
 - [Custom Data] – For quotes
 
 
