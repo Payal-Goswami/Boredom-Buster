@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Boredom Buster</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Agu+Display&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>Boredom Buster </h1>
+    <p>Click any card to spice up your day with something random.</p>
+  </header>
+
+  <main class="card-grid">
+    <div class="card" id="game-card">
+      <h2>🎮 Traffic Light Game</h2>
+      <p class="content" id="game">Test your memory skills with a colorful twist! 😉<br>Follow the light… if you dare. 😎</p>
+        <form action="game.html">
+          <button id="gamebtn">Play Game</button>
+        </form>
+    </div>
+    <div class="card" id="quote-card">
+      <h2>💭 Inspiring Quote</h2>
+      <p class="content", id="quote">The most effective way to do it, is to do it.</p>
+      <p class = "content", id="author", style="color:black;">Amelia Earhart</p>
+      <button id="quotebtn">New Quote</button>
+    </div>
+    <div class="card" id="dog-card">
+      <h2 style="font-size: 1.4rem;">🐶 Dog of the Moment</h2>
+      <img src="#" alt="Random dog" class="image">
+      <div class="dogImage">
+          <button id="imagebtn">Show dog</button>
+          <button id="clear">Clear image</button>
+      </div>
+    </div>
+    <div class="card" id="cat-card">
+      <h2>😺Random Cat Fact</h2>
+      <p class="content" id="catFact">Cats cannot taste sweetness.</p>
+      <button id="catbtn">Tell Me More</button>
+    </div>
+    <div class="card" id="joke-card">
+      <h2>😂 Random Joke</h2>
+      <p class="content" id="joke"> What is an astronaut’s favorite part on a Keyboard?<br> - The space bar. 🤣</p>
+      <button id="Jokebtn">Get Another</button>
+    </div>
+
+    <div class="card" id="word-card">
+      <h2>📚 Word of the Day</h2>
+      <input type="text" id="search">
+      <p class="content" id="word">Enter the word and know the meaning.</p>
+      <button id="wordbtn">Know meaning</button>
+    </div>
+  </main>
+
+  <footer>
+    <p>Built by Payal Goswami✨using open APIs</p>
+  </footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
