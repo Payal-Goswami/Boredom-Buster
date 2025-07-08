@@ -3,7 +3,8 @@
 Welcome to **Boredom Buster** – a fun, interactive web app designed to rescue you from boredom with a mix of jokes, quotes, dog pics, cat facts, word-meaning, and even a **traffic light memory game** 🧠🚦!
 
 ---
-
+[Live Demo](https://payal-goswami.github.io/Boredom-Buster/)
+---
 ## ✨ Features
 
 - 🚦 **Traffic Light Memory Game** 
