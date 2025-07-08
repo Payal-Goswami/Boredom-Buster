@@ -70,15 +70,15 @@ body {
 @media(max-width: 520px){
   .light{
     width:100%;
-    height: 100px;
+    height: 120px;
   }
   #lights{
     display: flex;
     flex-wrap: wrap;
-    width: 100px;
+    width: 120px;
   }
   h1{
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
   #rules{
     width: 200px;
